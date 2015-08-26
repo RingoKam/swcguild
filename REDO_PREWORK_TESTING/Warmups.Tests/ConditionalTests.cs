@@ -20,5 +20,6 @@ namespace Warmups.Tests
             // assert
             Assert.AreEqual(expected, actual);
         }
+
     }
 }
