@@ -18,5 +18,8 @@ namespace Warmups.BLL
             // Length - 1 of an array is always the last index
             return (numbers[0] == 6 || numbers[numbers.Length - 1] == 6);
         }
+
+
+
     }
 }

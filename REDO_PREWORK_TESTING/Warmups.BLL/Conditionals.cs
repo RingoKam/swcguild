@@ -23,5 +23,16 @@ namespace Warmups.BLL
 
             return false;
         }
+
+        public bool CanSleepIn(bool isWeekDay, bool isVacation)
+        {
+            if(isWeekDay==false || isVacation==true)
+            {
+                return true;
+            }
+            return false; 
+
+        }
+
     }
 }
